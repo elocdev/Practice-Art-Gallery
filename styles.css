@@ -1,0 +1,16 @@
+.thumbnail {
+    width: 300px;
+    height: 125px;
+}
+
+.search-bar {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.gallery {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-right: 15px;
+}
