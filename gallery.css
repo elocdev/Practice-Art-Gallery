@@ -55,10 +55,7 @@
     font-family: Roboto, Arial;
     font-size: 12px;
     font-weight: 500;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 4px;
     border-radius: 2px;
 }
 
@@ -73,4 +70,28 @@ body {
     padding-top: 60px;
     padding-left: 80px;
     height: 2000px;
+}
+
+@media (max-width: 450px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 750px) {
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1000px) {
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1001px){
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
