@@ -78,6 +78,7 @@ body {
     }
     body {
         padding-left: 20px;
+        font-family: Arial;
     }
     .sidebar {
         display: none;
